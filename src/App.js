@@ -16,6 +16,7 @@ import {
   CardContent,
   Avatar,
 } from '@material-ui/core';
+import Footer from './Footer';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -268,6 +269,8 @@ function App() {
             </Grid>
           </Grid>
         </Container>
+
+        <Footer></Footer>
       </div>
     </ThemeProvider>
   );
